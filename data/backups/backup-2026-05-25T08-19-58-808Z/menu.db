@@ -1,0 +1,19 @@
+{"id":10,"cat":"Rice","emoji":"🍚","name":"ข้าวมันไก่","en":"Khao Man Gai","desc":"Poached chicken, ginger rice","price":79,"spice":0,"tags":"[\"popular\"]","photo":"","available":1,"_id":"8p5PHoxMnSFGSN3K"}
+{"id":9,"cat":"Stir Fry","emoji":"🍳","name":"ข้าวผัดกุ้ง","en":"Prawn Fried Rice","desc":"Jasmine rice, prawn","price":109,"spice":1,"tags":"[\"new\"]","photo":"","available":1,"_id":"Ai86oh6hhNUA60xM"}
+{"id":3,"cat":"Salads","emoji":"🌿","name":"ลาบหมู","en":"Pork Laab","desc":"Minced pork, mint, chilli","price":95,"spice":3,"tags":"[\"new\"]","photo":"","available":1,"_id":"KDrXP5OzyhoPCEhc"}
+{"id":14,"cat":"Noodles","emoji":"🍜","name":"บะหมี่หมูแดง","en":"Roast Pork Noodle","desc":"Egg noodles, bok choy","price":95,"spice":0,"tags":"[]","photo":"","available":1,"_id":"PhTWJu0aMIU8N3h4"}
+{"id":5,"cat":"Soups","emoji":"🥣","name":"ต้มข่าไก่","en":"Tom Kha Gai","desc":"Coconut milk, chicken","price":115,"spice":1,"tags":"[]","photo":"","available":1,"_id":"Pn2aEiK5vWpZ3Iey"}
+{"id":8,"cat":"Stir Fry","emoji":"🫕","name":"ผัดซีอิ๊ว","en":"Pad See Ew","desc":"Flat noodles, broccoli","price":89,"spice":1,"tags":"[]","photo":"","available":1,"_id":"QpTcUF9Orfa43Eit"}
+{"id":19,"cat":"Desserts","emoji":"🧁","name":"ทับทิมกรอบ","en":"Water Chestnut Rubies","desc":"Coconut milk, pandan jelly","price":65,"spice":0,"tags":"[\"new\"]","photo":"","available":1,"_id":"ULE3aHEkgJIFrGjn"}
+{"id":7,"cat":"Stir Fry","emoji":"🥘","name":"ผัดกะเพราหมู","en":"Pad Kra Pao Pork","desc":"Holy basil, pork, egg","price":99,"spice":3,"tags":"[\"popular\"]","photo":"","available":1,"_id":"VWT3KCZLxFSZaNQn"}
+{"id":6,"cat":"Soups","emoji":"🍲","name":"แกงเขียวหวาน","en":"Green Curry","desc":"Bamboo shoots, basil","price":119,"spice":2,"tags":"[\"popular\"]","photo":"","available":1,"_id":"VpgAL3dOq5QTmL6e"}
+{"id":2,"cat":"Salads","emoji":"🥗","name":"ส้มตำไทย","en":"Som Tam Thai","desc":"Green papaya, peanuts","price":79,"spice":3,"tags":"[\"popular\"]","photo":"","available":1,"_id":"WOECaAIzOccYaWV3"}
+{"id":12,"cat":"Rice","emoji":"🫙","name":"ข้าวหน้าเป็ด","en":"Duck on Rice","desc":"Five-spice duck, egg","price":119,"spice":0,"tags":"[\"new\"]","photo":"","available":1,"_id":"WucJHSzluWi3ZOjs"}
+{"id":18,"cat":"Desserts","emoji":"🍮","name":"ข้าวเหนียวมะม่วง","en":"Mango Sticky Rice","desc":"Ripe mango, coconut cream","price":95,"spice":0,"tags":"[\"popular\"]","photo":"","available":1,"_id":"haplsuuPJLx5d04W"}
+{"id":1,"cat":"Salads","emoji":"🥗","name":"ยำวุ้นเส้น","en":"Glass Noodle Salad","desc":"Vermicelli, pork, lime","price":89,"spice":2,"tags":"[\"popular\"]","photo":"","available":1,"_id":"pWlyDy3TppzLZqsA"}
+{"id":15,"cat":"Drinks","emoji":"🧃","name":"น้ำมะพร้าว","en":"Fresh Coconut","desc":"Young coconut, chilled","price":55,"spice":0,"tags":"[]","photo":"","available":1,"_id":"rIKWvLp9XLQYeX3D"}
+{"id":4,"cat":"Soups","emoji":"🍜","name":"ต้มยำกุ้ง","en":"Tom Yum Goong","desc":"Prawns, lemongrass","price":129,"spice":3,"tags":"[\"popular\"]","photo":"","available":1,"_id":"rJZUeX2tLXkS9yeO"}
+{"id":16,"cat":"Drinks","emoji":"🧋","name":"ชาไทยเย็น","en":"Thai Iced Tea","desc":"Condensed milk, ice","price":45,"spice":0,"tags":"[\"popular\"]","photo":"","available":1,"_id":"sIGofpimoQQeFlzZ"}
+{"id":17,"cat":"Drinks","emoji":"🥤","name":"น้ำส้มคั้น","en":"Fresh Orange Juice","desc":"Freshly squeezed","price":65,"spice":0,"tags":"[]","photo":"","available":1,"_id":"u4codYlZ4InIMa4G"}
+{"id":11,"cat":"Rice","emoji":"🍛","name":"ข้าวหมูแดง","en":"Red Pork Rice","desc":"Roast pork, gravy","price":85,"spice":0,"tags":"[]","photo":"","available":1,"_id":"vPo2plOOF4r3O4aV"}
+{"id":13,"cat":"Noodles","emoji":"🍝","name":"ผัดไทยกุ้ง","en":"Pad Thai Prawn","desc":"Rice noodles, peanuts","price":109,"spice":1,"tags":"[\"popular\"]","photo":"","available":1,"_id":"xpPjYKcBvOtIPbS0"}

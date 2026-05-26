@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Min Gu Chan - Table Digital Menu</title>
+  
+  <!-- Modern Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Unified Theme Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Sockets Integration -->
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <style>
+    /* Specific overrides to make customer page resemble a beautiful full-screen mobile app */
+    body {
+      background: linear-gradient(180deg, #f7f7fb 0%, #e9edf4 100%);
+      color: #1c1c1e;
+      overflow-y: auto;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 16px 0;
+    }
+    
+    .cph-wrap {
+      width: 100%;
+      max-width: 540px;
+      margin: 0 auto;
+      background: #ffffff;
+      min-height: calc(100vh - 32px);
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 80px rgba(0,0,0,0.12);
+      border-radius: 36px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .toast {
+      top: 22px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+      max-width: 92%;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cph-wrap" id="cph-container">
+    <!-- Rendered Dynamically via customer.js -->
+  </div>
+
+  <!-- Real-Time Alerts -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Sockets and Digital Menu logic -->
+  <script src="js/customer.js"></script>
+</body>
+</html>

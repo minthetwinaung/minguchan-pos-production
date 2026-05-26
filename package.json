@@ -1,0 +1,19 @@
+{
+  "name": "minguchan-pos-production",
+  "version": "1.0.0",
+  "description": "Production-grade Min Gu Chan POS web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "nedb-promises": "^6.1.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5"
+  },
+  "author": "Min Gu Chan",
+  "license": "ISC"
+}

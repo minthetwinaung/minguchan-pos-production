@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min Gu Chan POS - Cashier Control Panel</title>
+  
+  <!-- Modern Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Socket.io -->
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="topbar">
+    <div class="logo-container">
+      <div class="logo-icon">🌶</div>
+      <div class="logo-text">Min Gu Chan <b>POS</b></div>
+    </div>
+    
+    <button class="nav-btn active" id="nb-pos" onclick="gp('pos')">🛒 POS</button>
+    <button class="nav-btn" id="nb-sales" onclick="gp('sales')">📊 Sales Reports</button>
+    <button class="nav-btn" id="nb-reports" onclick="gp('reports')">📈 Reports</button>
+    <button class="nav-btn" id="nb-menu" onclick="gp('menu')">🍽 Menu Editor</button>
+    <button class="nav-btn" id="nb-qr" onclick="gp('qr')">📱 QR Table Sync</button>
+    <button class="nav-btn" id="nb-cfg" onclick="gp('cfg')">⚙ Settings</button>
+    
+    <div class="topbar-r">
+      <button class="nav-btn qr-shortcut" id="nb-qr-shortcut" onclick="gp('qr')" title="Open QR Table Sync">📱 QR</button>
+      <button id="btn-confirm-all" class="btn-cfm topbar-confirm" style="display:none;margin-left:6px" onclick="cfmAll()">Confirm All</button>
+      <span id="pbadge" class="pbadge">0 New</span>
+      <span id="clock" class="clock">--:--</span>
+    </div>
+  </div>
+
+  <!-- Dynamic Views -->
+  <div class="page" id="pg-pos"></div>
+  <div class="page dn" id="pg-sales"></div>
+  <div class="page dn" id="pg-reports"></div>
+  <div class="page dn" id="pg-menu"></div>
+  <div class="page dn" id="pg-qr"></div>
+  <div class="page dn" id="pg-cfg"></div>
+
+  <!-- Mobile Phone Preview Overlay (For Cashier's Testing) -->
+  <div class="qr-ov" id="qr-ov">
+    <div class="qr-ph" id="qr-ph"></div>
+  </div>
+
+  <!-- Printable Invoice Receipt Overlay -->
+  <div class="r-ov" id="r-ov">
+    <div class="r-box">
+      <div class="r-body" id="r-body"></div>
+      <div class="r-actions">
+        <button class="r-act r-print" onclick="window.print()">🖨 Print / Save PDF</button>
+        <button class="r-act r-close" onclick="closeR()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Glowing Toast Notifications -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Front-end Application logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>
